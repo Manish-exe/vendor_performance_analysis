@@ -26,7 +26,7 @@ This project provides a comprehensive view of vendor contributions across **sale
 | Tool            | Purpose                                       |
 |-----------------|-----------------------------------------------|
 | **SQL Server**  | Central database and complex queries          |
-| **Python**      | ETL, data wrangling (`pandas`, `SQLAlchemy`) |
+| **Python**      | ETL, data wrangling (`pandas`, `SQLAlchemy`, `NumPy`) |
 | **Jupyter**     | EDA, feature engineering, visualization       |
 | **Power BI**    | Dashboard creation, KPI visuals               |
 | **GitHub**      | Version control & collaboration               |
@@ -49,12 +49,13 @@ This project provides a comprehensive view of vendor contributions across **sale
 ## 🔄 Workflow Summary
 1. **Define KPIs** → Profit Margin, Unsold Inventory, Sales Ratio
 2. **ETL** → Load CSVs into SQL via Python
-3. **Data Cleaning**→ Nulls, Duplicates, Standardization
-4. **Feature Engineering** → Add calculated columns
-5. **Data Aggregation** → Vendor-level summaries
-6. **Analysis** → Visual EDA in Python
-7. **Power BI** → Create dashboards (with auto-refresh)
-8. **Business Reporting** → Strategic insights and recommendations 
+3. **Logging** → Separate logs for ingestion, transformation & debugging
+4. **Data Cleaning**→ Nulls, Duplicates, Standardization
+5. **Feature Engineering** → Add calculated columns
+6. **Data Aggregation** → Vendor-level summaries
+7. **Analysis** → Visual EDA in Python
+8. **Power BI** → Create dashboards (with auto-refresh)
+9. **Business Reporting** → Strategic insights and recommendations 
 
 ---
 
